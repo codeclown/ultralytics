@@ -44,6 +44,27 @@ When using the Ultralytics YOLO format, organize your training and validation im
 
 <p align="center"><img width="700" src="https://user-images.githubusercontent.com/26833433/134436012-65111ad1-9541-4853-81a6-f19a3468b75f.png" alt="Example dataset directory structure"></p>
 
+Example of the directory structure:
+
+```
+dataset-example/
+  images/
+    train/
+      image-1.jpg
+      image-2.jpg
+    val/
+      image-3.jpg
+      image-4.jpg
+  labels/
+    train/
+      image-1.txt
+      image-2.txt
+    val/
+      image-3.txt
+      image-4.txt
+  dataset.yaml
+```
+
 ## Usage
 
 Here's how you can use these formats to train your model:
